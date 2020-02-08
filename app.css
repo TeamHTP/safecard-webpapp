@@ -1,0 +1,37 @@
+body {
+	background-color: #fff9f8;
+}
+
+.cards-container {
+	margin-top: 30px;
+}
+
+.virtual-card {
+	border-radius: 6px;
+	height: 150px;
+	/*box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.3);*/
+	background-color: #7fcdbf;
+	color: white;
+	padding: 30px;
+}
+
+.virtual-card > .nickname {
+	font-family: monospace;
+}
+
+.virtual-card > .value {
+	margin-top: 40px;
+	font-family: monospace;
+	font-size: 1.5em;
+}
+
+.activity {
+	padding-top: 1em;
+	background-color: white;
+	border-radius: 6px;
+	/*box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.18);*/
+}
+
+.card-row {
+	margin-bottom: 1em;
+}
